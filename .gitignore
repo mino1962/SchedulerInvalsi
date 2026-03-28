@@ -1,0 +1,19 @@
+# Compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Private config/data
+config.json
+upload/
+dist/
+build/
+*.spec
+
+# Artifacts
+temp_check_2els.py
+GITHUB_RELEASE/
