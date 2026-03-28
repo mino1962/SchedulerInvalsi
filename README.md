@@ -17,11 +17,6 @@ Software gratuito per la generazione automatica del calendario delle prove Inval
 ## 📦 Download
 L'eseguibile compilato (`InvalsiScheduler_v26.03.2027.exe`) è disponibile nella sezione **[Releases](https://github.com/mino1962/SchedulerInvalsi/releases)** di questo repository. 
 
-> [!NOTE]
-> GitHub non permette il caricamento di file pesanti direttamente nel codice sorgente, per questo l'eseguibile va scaricato dalla sezione dedicata alle versioni rilasciate.
-
----
-
 ## 💎 Evoluzione PRO: Consigli di Classe e Scrutini
 Hai bisogno di generare il calendario dei **Consigli di Classe** o degli **Scrutini**? 
 È disponibile un'evoluzione di questo software progettata specificamente per gestire l'incastro complesso degli orari per le adunanze dei docenti, sempre basandosi sui file di Orario Facile.
