@@ -15,7 +15,10 @@ Software gratuito per la generazione automatica del calendario delle prove Inval
 - (Opzionale per sviluppatori) Python 3.10+ con librerie: `customtkinter`, `openpyxl`, `pandas`.
 
 ## 📦 Download
-Puoi scaricare l'eseguibile compilato (`InvalsiScheduler_v26.03.2027.exe`) nella cartella `GITHUB_RELEASE` o dalla sezione [Releases](https://github.com/mino1962/SchedulerInvalsi/releases) di questo repository.
+L'eseguibile compilato (`InvalsiScheduler_v26.03.2027.exe`) è disponibile nella sezione **[Releases](https://github.com/mino1962/SchedulerInvalsi/releases)** di questo repository. 
+
+> [!NOTE]
+> GitHub non permette il caricamento di file pesanti direttamente nel codice sorgente, per questo l'eseguibile va scaricato dalla sezione dedicata alle versioni rilasciate.
 
 ---
 
