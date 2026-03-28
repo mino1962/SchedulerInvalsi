@@ -44,7 +44,7 @@ Sviluppo soluzioni software per la scuola su misura. Oltre a questa versione gra
 
 Se sei interessato o hai bisogno di assistenza, contattami:
 - **GitHub**: [https://github.com/mino1962](https://github.com/mino1962)
-- **Email**: [Inserisci qui il tuo riferimento di contatto]
+- **Email**: [(https://www.lullo.info/scrivimi)]
 
 ---
 *Prodotto da Gelsomino (mino1962)*
