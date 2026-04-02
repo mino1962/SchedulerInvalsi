@@ -13,10 +13,10 @@ Invalsi Scheduler Pro è un'applicazione progettata per facilitare la creazione 
 
 ### 2. Configurazione
 - **Periodo Prove**: Inserisci la data di inizio e fine delle sessioni Invalsi (formato GG/MM/AAAA).
-- **Seleziona Classi**: Scegli quali classi devono sostenere le prove.
+- **Seleziona Classi**: Scegli quali classi devono sostenere le prove. Usa i pulsanti **"Seleziona Tutte"** o **"Deseleziona Tutte"** per velocizzare l'operazione.
 - **Materie e Durata**: Puoi aggiungere, eliminare o rinominare le materie. Configura quante ore dura ogni prova.
 - **Priorità Ore**: Se attivo il flag "Priorità materie con più ore", lo scheduler assegnerà prima gli slot alle materie con durata maggiore.
-- **Selezione Aule**: Seleziona le aule abilitate per le prove informatiche.
+- **Selezione Aule**: Seleziona le aule abilitate per le prove informatiche. Anche qui sono presenti i tasti di selezione/deselezione rapida.
 - **Opzioni Avanzate**:
     - *Permetti più prove al giorno*: Se attivo, una classe può fare fino a 2 prove nello stesso giorno (es. Italiano e Matematica). Altrimenti solo 1.
     - *Permetti cambio aula*: Se attivo, la classe può cambiare aula tra una prova e l'altra nello stesso giorno. Se disattivo, il sistema cercherà di mantenere la stessa aula.

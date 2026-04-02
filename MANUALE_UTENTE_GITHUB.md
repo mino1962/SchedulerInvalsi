@@ -17,9 +17,9 @@ Il software necessita del file orario della scuola in formato **XML**. Questo fi
 ## 3. Configurazione
 Passa alla scheda **"Configurazione"**:
 - **Generale**: Imposta le date di inizio e fine delle prove e seleziona i giorni della settimana in cui si possono svolgere.
-- **Classi**: Seleziona le classi che devono sostenere le prove.
+- **Classi**: Seleziona le classi che devono sostenere le prove. Puoi usare i nuovi pulsanti per la selezione massiva.
 - **Materie**: Configura la durata in ore per ogni prova. Puoi aggiungere nuove materie o rimuovere quelle predefinite.
-- **Aule**: Seleziona le aule informatiche/laboratori abilitati alle prove.
+- **Aule**: Seleziona le aule informatiche/laboratori abilitati alle prove. Anche qui puoi selezionare o deselezionare tutto con un clic.
 
 **Opzione "Priorità Ore":** Se attivata, il sistema cercherà di incastrare prima le materie che durano più ore, rendendo più probabile il completamento dello scheduling senza conflitti.
 
@@ -44,7 +44,7 @@ Sviluppo soluzioni software per la scuola su misura. Oltre a questa versione gra
 
 Se sei interessato o hai bisogno di assistenza, contattami:
 - **GitHub**: [https://github.com/mino1962](https://github.com/mino1962)
-- **Email**: [(https://www.lullo.info/scrivimi)]
+- **Email**: [Inserisci qui il tuo riferimento di contatto]
 
 ---
 *Prodotto da Gelsomino (mino1962)*

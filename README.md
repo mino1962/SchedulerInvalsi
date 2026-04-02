@@ -1,4 +1,4 @@
-# Invalsi Scheduler Pro (v260327.4)
+# Invalsi Scheduler Pro (v260331.0)
 
 Software gratuito per la generazione automatica del calendario delle prove Invalsi, basato sull'export XML di **"Orario Facile"** (https://orariofacile.com/).
 
@@ -7,6 +7,7 @@ Software gratuito per la generazione automatica del calendario delle prove Inval
 - **Rispetto Vincoli**: Verifica automaticamente la presenza della classe a scuola (evitando slot in cui gli studenti hanno finito le lezioni).
 - **Gestione Materie**: Permette di aggiungere, eliminare o rinominare le materie d'esame e gestire le ore necessarie.
 - **Priorità Ore**: Possibilità di pianificare prima le materie più lunghe per ottimizzare il calendario.
+- **Selezione Rapida**: Pulsanti "Seleziona Tutte" e "Deseleziona Tutte" per impostare velocemente Classi e Aule.
 - **Export Avanzato**: Genera file CSV ed Excel (.xlsx) con fogli separati per data, per classe e per aula.
 - **Modifica Manuale**: Strumento integrato per rimescolare gli orari o trovare slot alternativi in caso di necessità.
 
@@ -15,7 +16,12 @@ Software gratuito per la generazione automatica del calendario delle prove Inval
 - (Opzionale per sviluppatori) Python 3.10+ con librerie: `customtkinter`, `openpyxl`, `pandas`.
 
 ## 📦 Download
-L'eseguibile compilato (`InvalsiScheduler_v26.03.2027.exe`) è disponibile nella sezione **[Releases](https://github.com/mino1962/SchedulerInvalsi/releases)** di questo repository. 
+L'eseguibile compilato (`InvalsiScheduler_v260331_0.exe`) è disponibile nella sezione **[Releases](https://github.com/mino1962/SchedulerInvalsi/releases)** di questo repository. 
+
+> [!NOTE]
+> GitHub non permette il caricamento di file pesanti direttamente nel codice sorgente, per questo l'eseguibile va scaricato dalla sezione dedicata alle versioni rilasciate.
+
+---
 
 ## 💎 Evoluzione PRO: Consigli di Classe e Scrutini
 Hai bisogno di generare il calendario dei **Consigli di Classe** o degli **Scrutini**? 
