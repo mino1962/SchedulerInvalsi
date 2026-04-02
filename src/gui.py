@@ -235,6 +235,15 @@ class ConfigView(ctk.CTkFrame):
         self.chk_room_change.pack(anchor="w", pady=5)
 
         # --- Classi (5 Colonne) ---
+        self.frame_cls_tools = ctk.CTkFrame(self.tab_cls, fg_color="transparent")
+        self.frame_cls_tools.pack(fill="x", padx=10, pady=5)
+        
+        self.btn_sel_all_cls = ctk.CTkButton(self.frame_cls_tools, text="Seleziona Tutte", width=120, command=self.select_all_classes)
+        self.btn_sel_all_cls.pack(side="left", padx=5)
+        
+        self.btn_desel_all_cls = ctk.CTkButton(self.frame_cls_tools, text="Deseleziona Tutte", width=120, command=self.deselect_all_classes)
+        self.btn_desel_all_cls.pack(side="left", padx=5)
+
         self.scroll_cls = ctk.CTkScrollableFrame(self.tab_cls, label_text="Seleziona Classi")
         self.scroll_cls.pack(fill="both", expand=True)
         self.class_vars = {}
@@ -253,6 +262,15 @@ class ConfigView(ctk.CTkFrame):
         self._init_subjects()
 
         # --- Aule (3 Colonne) ---
+        self.frame_rooms_tools = ctk.CTkFrame(self.tab_rooms, fg_color="transparent")
+        self.frame_rooms_tools.pack(fill="x", padx=10, pady=5)
+        
+        self.btn_sel_all_rooms = ctk.CTkButton(self.frame_rooms_tools, text="Seleziona Tutte", width=120, command=self.select_all_rooms)
+        self.btn_sel_all_rooms.pack(side="left", padx=5)
+        
+        self.btn_desel_all_rooms = ctk.CTkButton(self.frame_rooms_tools, text="Deseleziona Tutte", width=120, command=self.deselect_all_rooms)
+        self.btn_desel_all_rooms.pack(side="left", padx=5)
+
         self.scroll_rooms = ctk.CTkScrollableFrame(self.tab_rooms, label_text="Seleziona Aule")
         self.scroll_rooms.pack(fill="both", expand=True)
         self.room_vars = {}
@@ -364,6 +382,22 @@ class ConfigView(ctk.CTkFrame):
             else:
                 chk.deselect()
             var_dict[item] = chk
+
+    def select_all_classes(self):
+        for chk in self.class_vars.values():
+            chk.select()
+            
+    def deselect_all_classes(self):
+        for chk in self.class_vars.values():
+            chk.deselect()
+
+    def select_all_rooms(self):
+        for chk in self.room_vars.values():
+            chk.select()
+            
+    def deselect_all_rooms(self):
+        for chk in self.room_vars.values():
+            chk.deselect()
     
     def save_cfg(self):
         filepath = filedialog.asksaveasfilename(defaultextension=".json", filetypes=[("JSON Files", "*.json")])
@@ -713,6 +747,7 @@ La configurazione è organizzata in schede per una maggiore chiarezza:
 
 #### Scheda Classi
 - Seleziona le classi che devono sostenere le prove. Le classi sono disposte su 5 colonne per facilitare la selezione.
+- **Selezione Rapida**: Utilizza i pulsanti "Seleziona Tutte" o "Deseleziona Tutte" per impostare velocemente le classi attive.
 
 #### Scheda Materie
 - **Gestione Materie**: Puoi aggiungere nuove materie con il pulsante "+ Aggiungi Materia" o eliminarle con il pulsante "Elimina".
@@ -723,6 +758,7 @@ La configurazione è organizzata in schede per una maggiore chiarezza:
 
 #### Scheda Aule
 - Seleziona le aule informatiche da utilizzare. Le aule sono disposte su 3 colonne.
+- **Selezione Rapida**: Utilizza i pulsanti "Seleziona Tutte" o "Deseleziona Tutte" per impostare velocemente le aule abilitate.
 
 ### 3. Generazione ed Esportazione
 - **Genera Scheduler**: Il sistema elabora il calendario cercando di rispettare tutti i vincoli:
@@ -751,11 +787,6 @@ Dopo aver generato il calendario, puoi modificare singole prove se necessario:
 - **Il sistema non trova slot**: Prova ad allargare il periodo delle date, aggiungere più aule o abilitare le opzioni avanzate.
 - **Formato Data**: Assicurati di usare GG/MM/AAAA (es. 15/03/2026).
 
----
-### 💎 Altre Soluzioni (Versione PRO)
-È disponibile un'evoluzione di questo software specifica per la generazione del calendario dei **Consigli di Classe** e degli **Scrutini**, con gestione avanzata degli orari dei docenti. Questa versione non è gratuita.
-
-Per informazioni, contattami su GitHub: https://github.com/mino1962
 ---
 Software by Gelsomino Lullo
 """
